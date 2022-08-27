@@ -7,7 +7,7 @@ data.forEach((user)=>{
     if(user.age>18) eligibleUsers += 1
     else underAgeUsers +=1
 })
-
+console.log("output:")
 console.log({
     Total_Users:totalUser,
     Eligible_Users:eligibleUsers,
